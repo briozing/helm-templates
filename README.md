@@ -265,7 +265,7 @@ spec:
 ```
 ## Ingress resource
 Nginx ingress controller and resource.
-```
+```yaml
 {{- if .Values.ingress.enabled }}
 apiVersion: extensions/v1beta1
 kind: Ingress

@@ -47,7 +47,7 @@ One may need additional environment variable for the application to perform. Due
 Since we are looking for stateless applications this is very generic. We need to copy these application.yaml/properties file from step-2 to certain volume location that can be mounted inside container. Same mounted file location can further be referred by Step-3 environment injections. Now lets move to complete example:
 
 # Templates:
-We have kept the complete thing in our github page [Helm-generic](https://github.com/shubhamitc/helm-generic-template). Feel free to fork it and make it better. Contributions are welcome. Template also deploys nginx-ingress controller and ingress mapping of it. 
+We have kept the complete thing in our github page [helm-templates](https://github.com/briozing/helm-templates). Feel free to fork it and make it better. Contributions are welcome. Template also deploys nginx-ingress controller and ingress mapping of it. 
 ## namespace/<namespacename/ENV>/<application_name>/values.yaml 
 ```yml
 # Default values for my-boot-service.
